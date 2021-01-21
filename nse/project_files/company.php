@@ -7,16 +7,8 @@ include "../includes/conn.php";
 
 
 
-if(isset($_GET['e'])){
 
-    $message="Edited Successsfully";
 
-}
-if(isset($_GET['d'])){
-
-    $message="Deleted Successsfully";
-
-}
 if(isset($_GET['a'])){
 
     $message="Added Successsfully";
